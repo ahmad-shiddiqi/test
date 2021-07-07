@@ -1,0 +1,26 @@
+1. Statefull vs Stateless
+
+Stateless : protocol that client send request but doesnt expect server to send a response, doesnt need session information
+ex: HTTP, UDP
+Statefull : protocol that client send request and require a response, will resend request if there is no response, collect session information
+ex : FTP
+
+2. Interface vs Abstract
+
+Interface : blueprint to implement class, support multiple inheritance, public by default
+Abstract : abstract keyword, single inheritance, class member can be private, protected
+
+3. Compile vs Runtime
+
+Compile-time : code to executable, ex: syntax error
+Runtime : code when running, ex: division by zero
+
+4. Authentication vs Authorization
+
+Authentication : verification of who enter the system, about the subject
+Authorization : verification if subject have permission to the system, about what subject can/cannot do
+
+5. Javascript vs NodeJS
+
+JS : programming language, client-side, frontend, only on browsers
+NodeJS : runtime based on JS, server-side, server side, outside of browsers
